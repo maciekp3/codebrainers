@@ -34,12 +34,6 @@ print()
 print("podaj slowo które chcesz wyszukać:")
 do_wyszukania = input()
 
-#wyszukaj w pliku:
-plik = open("sonety/sonet42.txt", "r")
-
-
-wyszukiwanie_slow(do_wyszukania, plik.readlines())
-
 with open(nazwa_pliku, "r") as plik:
     wyszukiwanie_slow(do_wyszukania, plik.readlines())
    
