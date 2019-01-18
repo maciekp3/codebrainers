@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="calculator.css">
+        <script src="calculator.js"></script>
+    </head>
+    <body>
+        <div class="display-row">
+            <div id="result-box"></div>
+            <div class="button operator" onclick="resetCalculator()">C</div>
+        </div>
+        <div class="buttons-block">
+            <div class="digits-block">
+                <div class="button digit" onclick="appendDigit(7)">7</div>
+                <div class="button digit" onclick="appendDigit(8)">8</div>
+                <div class="button digit" onclick="appendDigit(9)">9</div>
+                <div class="button digit" onclick="appendDigit(4)">4</div>
+                <div class="button digit" onclick="appendDigit(5)">5</div>
+                <div class="button digit" onclick="appendDigit(6)">6</div>
+                <div class="button digit" onclick="appendDigit(1)">1</div>
+                <div class="button digit" onclick="appendDigit(2)">2</div>
+                <div class="button digit" onclick="appendDigit(3)">3</div>
+                <div class="button digit" onclick="appendDigit(0)">0</div>
+                <div class="button operator" onclick="appendDecimalPeriod()">.</div>
+                <div class="button operator" onclick="equal()">=</div>
+            </div>
+            <div class="operators-block">
+                    <div class="button operator" onclick="appendOperation('+')">+</div>
+                    <div class="button operator" onclick="appendOperation('-')">-</div>
+                    <div class="button operator" onclick="appendOperation('*')">*</div>
+                    <div class="button operator" onclick="appendOperation('/')">/</div>
+            </div>
+        </div>
+    </body>
+</html>

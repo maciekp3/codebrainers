@@ -1,0 +1,57 @@
+body {
+    background: rgb(250, 250, 250);
+}
+
+#result-box {
+    width: 140px;
+    height: 30px;
+    border: 1px solid rgb(66, 66, 66);
+    background: rgb(215, 213, 231);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.display-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.digit {
+    background: rgb(146, 142, 180);
+}
+
+.operator {
+    background: rgb(118, 112, 175);
+}
+
+.digits-block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 162px;
+}
+
+.operators-block {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.buttons-block {
+    display: flex;
+    flex-direction: row;
+}

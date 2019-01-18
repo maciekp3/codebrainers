@@ -28,3 +28,4 @@ while(liczba != zagadka):
         if proba >= maksymalna_prob:
             print("Nie udało się w {1} probach. Wylosowano liczbe {0}.". format(zagadka, proba))
             break
+    

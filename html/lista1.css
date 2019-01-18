@@ -1,0 +1,25 @@
+.header{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+.wpisz{
+    background-color: blue; border: 15px;
+
+}
+.przycisk {
+    background-color: blue; border: 15px;
+    display: inline-block
+}
+.przycisk:hover {background-color: yellow}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    display: inline-block
+}
+.produkt:nth-child(odd){background-color: brown
+   
+    
+}
